@@ -1,0 +1,86 @@
+body {  
+    overflow:hidden;
+}
+
+#background_container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display:block;
+    z-index:0;
+
+}
+
+#image{
+    position: relative;
+    bottom: 135vh;
+    width: 27%;
+    margin-left: 80vh;
+   
+}
+
+#slider{
+    text-align: center;
+    margin-left: 75vh;
+}
+
+.leaflet-map-pane canvas {
+    text-align: center;
+}
+
+#year {
+    color:white;
+    font-size: 15px;
+    margin-left: 85px;
+    position: relative;
+    background: transparent;
+    border:transparent;
+    margin-left: 75vh;
+}
+
+p {
+    width: 500px;
+    margin-left: 85px;
+    position: relative;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color:white;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    color:white;
+    position: relative;
+}
+
+
+.titelE{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color:white;
+display: flex;
+position: relative;
+margin-left: 60vh;
+}
+
+.titelT{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    display: flex;
+    position: relative;
+    margin-left: 140vh;  
+    bottom: 25px;
+}
+
+.leaflet-container {
+    font: 12px/1.5 "Helvetica Neue", Arial, Helvetica, sans-serif;
+    margin-left: 25%;
+    border-radius: 25px;
+}
